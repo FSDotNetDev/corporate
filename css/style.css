@@ -1,0 +1,548 @@
+@charset "utf-8";
+
+/*=============================================
+=				 	        Font				       =
+=============================================*/
+
+@font-face {
+	font-family: 'Conv_PSL-Kanda';
+	src: url('../fonts/PSL-Kanda.eot');
+	src: local('☺'), url('../fonts/PSL-Kanda.woff') format('woff'), url('../fonts/PSL-Kanda.ttf') format('truetype'), url('../fonts/PSL-Kanda.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_PSL-KandaBold';
+	src: url('../fonts/PSL-KandaBold.eot');
+	src: local('☺'), url('../fonts/PSL-KandaBold.woff') format('woff'), url('../fonts/PSL-KandaBold.ttf') format('truetype'), url('../fonts/PSL-KandaBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: none;
+	font-family: 'Conv_PSL-Kanda';
+	color: #fff;
+	background-color: #EF6F23; 
+}
+.btn-group {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#btn-submit {
+	display: relative;
+	margin-bottom: 20px;
+	font-size: 1rem;
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	background-color: #333333;
+	border: 0;
+	border-radius: 5px;
+}
+#btn-reset {
+	display: relative;
+	margin-bottom: 20px;
+	border:0;
+	font-size: 1rem;
+	width: 150px;
+	height: 50px;
+	color: #fff;		
+	background-color: #de4230;
+	border-radius: 5px;
+}
+
+/*=============================================
+=				 	        Font				       =
+=============================================*/
+
+.main {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title {
+	font-size: 2em;
+} 
+.formmhee ul { list-style: none; margin: 0; padding: 0; }
+.formmhee ul li { margin: 0.5em 0; alignment-baseline:middle; text-align:middle !important;}
+
+label {
+	font-family: "Conv_PSL-Kanda", Times, serif;
+	font-size: 1.3em;	
+	letter-spacing: 0.05em;
+	float: left;
+	margin-left: 200px;
+	/*width: 100%;*/
+}
+.form-style-5 {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: none;
+	font-family: Georgia, "Conv_PSL-KandaBold", Times, serif;
+	font-size: 1.5em;
+}
+.form-style-5 fieldset {
+	border: none;
+}
+.form-style-5 table {
+	border: none;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-style-5 legend {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	letter-spacing:0.05em;
+}
+.form-style-5 label {
+	display: block;
+	height: 30px;
+	line-height: 25pt;
+	width: 30%;
+	float: left;
+	text-align: right;
+	margin-right: auto;
+	margin-left: 70px;
+	float: left;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 input[type="tel"],
+.form-style-5 textarea {
+	font-family: "Conv_PSL-Kanda", Times, serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #EF6F23;	
+	letter-spacing: 0.03em;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;    
+	margin: 0;
+	margin-right: 200px;
+	outline: 0;
+	padding: 1px 10px;
+	width: 40%;
+	height: 40px;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #FFFFFF;    
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+	float: right;    
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 input[type="tel"]:focus,
+.form-style-5 textarea:focus {    
+	font-family: "Conv_PSL-KandaBold", Times, serif;
+	color: #9a6d5a;	
+	letter-spacing: 0.03em;
+	background: #f2dad0;
+}
+.form-style-5 select {
+	-webkit-appearance: menulist-button;
+	height: 35px;
+}
+.form-style-5 .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+.form-style-5 input[type="submit"] {
+	position: relative;
+	width:146px;
+	height:47px;
+	display: block;
+	margin: 0 auto;
+	margin-top:2em;
+	background-image:url(../images/send.png);
+	border:0;
+	border-radius:10px;
+}
+.form-style-5 input[type="submit"]:hover {
+	width:146px;
+	height:47px;
+	 display: block;
+	 margin: 0 auto;
+	margin-top:2em;
+	background-image:url(../images/sendH.png);
+	border:0;
+	border-radius:10px;
+}
+.form-style-5 input[type="reset"] {
+	position: relative;
+	width:144px;
+	height:45px;
+	display: block;
+	margin: 0 auto;
+	margin-top:1em;
+	margin-bottom:1em;
+	background-image:url(../images/back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F2E4CD ;
+	 border:0;
+	border-radius:10px;
+}
+.form-style-5 input[type="reset"]:hover {
+	width:144px;
+	height:45px;
+	display: block;
+	background-image:url(../images/backH.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F2E4CD ;
+	border:0;
+	border-radius:10px;
+}
+
+/*=============================================
+=				 	        Font				       =
+=============================================*/
+
+@media (max-width: 768px) {
+
+	#btn-submit {
+		display: block;
+		margin-top: -150px;
+		margin-bottom: 60px;
+		font-size: 1rem;
+		width: 97%;
+		height: 50px;
+		color: #fff;
+		background-color: #333333;
+		border: 0;
+		border-radius: 5px;
+		float: both;
+		overflow: hidden;
+	}
+	#btn-reset {
+		display: block;
+		margin-top: 80px;
+		margin-bottom: 20px;
+		border:0;
+		font-size: 1rem;
+		width: 97%;
+		height: 50px;
+		color: #fff;		
+		background-color: #de4230;
+		border-radius: 5px;
+		float: both;
+		overflow: hidden;
+	}
+	.banner {
+	  	display: block;
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100%;
+		background-image: url(./image/banner_m.png);
+		background-repeat: repeat-x;
+		overflow: hidden;
+	}
+	#container {
+		display: block;
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100%;
+		background-image: url(./image/bg_1-3.png);
+		background-repeat: repeat-x;
+		overflow: hidden;
+		background-position: center; 
+		overflow: hidden;
+	}
+	.main {
+		display: block;
+		width: 100%;	/*70%*/ /*450px*/
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+	}
+	.form {
+		display: block;
+		width: 100%; /*450px*/
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url(./image/bg_cor.png);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	.title {
+		font-size: 2em;
+		margin-top: 50px !important;
+	} 
+	.form-style-5 label {
+		display: relative;		
+		margin-left: 3%; /*70px*/
+		margin-right: 3%; /*50px*/
+		width: 94%;	/*40%*/ /*300px*/
+		float: left;
+		text-align: left;
+		/*padding-left: 10px;*/
+		font-size: 20px;
+		overflow: hidden;
+	}
+	.form-style-5 input[type="text"],
+	.form-style-5 input[type="date"],
+	.form-style-5 input[type="datetime"],
+	.form-style-5 input[type="email"],
+	.form-style-5 input[type="number"],
+	.form-style-5 input[type="search"],
+	.form-style-5 input[type="time"],
+	.form-style-5 input[type="url"],
+	.form-style-5 input[type="tel"],
+	.form-style-5 textarea {
+		display: relative;
+		font-family: "Conv_PSL-Kanda", Times, serif;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #EF6F23;	
+		letter-spacing: 0.03em;
+		background: rgba(255,255,255,.1);
+		border: none;
+		border-radius: 4px;    
+		margin: 0;
+		margin-left: 3%; /*70px*/
+		margin-right: 3%; /*70px*/
+		outline: 0;
+		padding: 1px 10px;
+		width: 94%;	/*40%*/ /*300px*/
+		height: 40px;
+		box-sizing: border-box; 
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box; 
+		background-color: #FFFFFF;    
+		box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		margin-bottom: 30px;
+		float: left;    
+		overflow: hidden;
+	}
+	.form-style-5 input[type="text"]:focus,
+	.form-style-5 input[type="date"]:focus,
+	.form-style-5 input[type="datetime"]:focus,
+	.form-style-5 input[type="email"]:focus,
+	.form-style-5 input[type="number"]:focus,
+	.form-style-5 input[type="search"]:focus,
+	.form-style-5 input[type="time"]:focus,
+	.form-style-5 input[type="url"]:focus,
+	.form-style-5 input[type="tel"]:focus,
+	.form-style-5 textarea:focus {    
+		font-family: "Conv_PSL-KandaBold", Times, serif;
+		color: #9a6d5a;	
+		letter-spacing: 0.03em;
+		background: #f2dad0;
+	}
+}
+
+/*=============================================
+=				 	        Font				       =
+=============================================*/
+
+@media (min-width:768px) and (max-width: 1293px) {
+
+	.banner {
+	  	display: block;
+		margin: 0 !important;
+		margin-top: 0; /*50px !important*/ 
+		padding: 0 !important;
+		width: 100%;
+		background-image: url(./image/banner_m.png);
+		background-repeat: repeat-x;
+		overflow: hidden;
+	}
+	#container {
+		display: block;
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100%;
+		background-image: url(./image/bg_1-3.png);
+		background-repeat: repeat-x;
+		overflow: hidden;
+	}
+	.main {
+		display: block;
+		width: 450px;	/*70%*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form {
+		display: block;
+		width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url(./image/bg_cor.png);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+	}
+	.form-style-5 label {
+		margin-left: 70px;
+		margin-right: 50px;
+		width: 300px;	/*40%*/
+		float: left;
+		text-align: left;
+	}
+	.form-style-5 input[type="text"],
+	.form-style-5 input[type="date"],
+	.form-style-5 input[type="datetime"],
+	.form-style-5 input[type="email"],
+	.form-style-5 input[type="number"],
+	.form-style-5 input[type="search"],
+	.form-style-5 input[type="time"],
+	.form-style-5 input[type="url"],
+	.form-style-5 input[type="tel"],
+	.form-style-5 textarea {
+		font-family: "Conv_PSL-Kanda", Times, serif;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #EF6F23;	
+		letter-spacing: 0.03em;
+		background: rgba(255,255,255,.1);
+		border: none;
+		border-radius: 4px;    
+		margin: 0;
+		margin-left: 70px;
+		margin-right: 70px;
+		outline: 0;
+		padding: 1px 10px;
+		width: 300px;	/*40%*/
+		height: 40px;
+		box-sizing: border-box; 
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box; 
+		background-color: #FFFFFF;    
+		box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		margin-bottom: 30px;
+		float: left;    
+	}
+	.form-style-5 input[type="text"]:focus,
+	.form-style-5 input[type="date"]:focus,
+	.form-style-5 input[type="datetime"]:focus,
+	.form-style-5 input[type="email"]:focus,
+	.form-style-5 input[type="number"]:focus,
+	.form-style-5 input[type="search"]:focus,
+	.form-style-5 input[type="time"]:focus,
+	.form-style-5 input[type="url"]:focus,
+	.form-style-5 input[type="tel"]:focus,
+	.form-style-5 textarea:focus {    
+		font-family: "Conv_PSL-KandaBold", Times, serif;
+		color: #9a6d5a;	
+		letter-spacing: 0.03em;
+		background: #f2dad0;
+	}
+}
+
+/*=============================================
+=				 	        Font				       =
+=============================================*/
+
+@media (min-width:1294px) and (max-width: 1800px) {
+
+	.container {
+		display: block;
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100%;
+		background-image: url(./image/bg_1-3.png);
+		background-repeat: repeat-x;
+		overflow: hidden;
+	}
+	.main {
+		display: block;
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form {
+		display: block;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url(./image/bg_cor.png);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+	}
+	.form-style-5 label {
+		margin-left: 0px;
+		width: 300px;
+	}
+	.form-style-5 input[type="text"],
+	.form-style-5 input[type="date"],
+	.form-style-5 input[type="datetime"],
+	.form-style-5 input[type="email"],
+	.form-style-5 input[type="number"],
+	.form-style-5 input[type="search"],
+	.form-style-5 input[type="time"],
+	.form-style-5 input[type="url"],
+	.form-style-5 input[type="tel"],
+	.form-style-5 textarea {
+		font-family: "Conv_PSL-Kanda", Times, serif;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #EF6F23;	
+		letter-spacing: 0.03em;
+		background: rgba(255,255,255,.1);
+		border: none;
+		border-radius: 4px;    
+		margin: 0;
+		margin-right: 100px;
+		outline: 0;
+		padding: 1px 10px;
+		width: 300px;	/*40%*/
+		height: 40px;
+		box-sizing: border-box; 
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box; 
+		background-color: #FFFFFF;    
+		box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+		margin-bottom: 30px;
+		float: right;    
+	}
+	.form-style-5 input[type="text"]:focus,
+	.form-style-5 input[type="date"]:focus,
+	.form-style-5 input[type="datetime"]:focus,
+	.form-style-5 input[type="email"]:focus,
+	.form-style-5 input[type="number"]:focus,
+	.form-style-5 input[type="search"]:focus,
+	.form-style-5 input[type="time"]:focus,
+	.form-style-5 input[type="url"]:focus,
+	.form-style-5 input[type="tel"]:focus,
+	.form-style-5 textarea:focus {    
+		font-family: "Conv_PSL-KandaBold", Times, serif;
+		color: #9a6d5a;	
+		letter-spacing: 0.03em;
+		background: #f2dad0;
+	}
+}
