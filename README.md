@@ -13,9 +13,5 @@ http://localhost/corporate/
 ## Features
 * Form Promotion trial 30 day
 
-## Package
-* bootbox
-* toastr
-
 ## License
 Mbookstore license.

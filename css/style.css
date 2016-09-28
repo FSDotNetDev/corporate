@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*=============================================
-=				 	        Font				       =
+=				 	   Font			       	  =
 =============================================*/
 
 @font-face {
@@ -57,7 +57,7 @@ body {
 }
 
 /*=============================================
-=				 	        Font				       =
+=				 	   Font			       	  =
 =============================================*/
 
 .main {
@@ -227,7 +227,7 @@ label {
 }
 
 /*=============================================
-=				 	        Font				       =
+=				 	   Font			       	  =
 =============================================*/
 
 @media (max-width: 768px) {
@@ -265,7 +265,7 @@ label {
 		margin: 0 !important;
 		padding: 0 !important;
 		width: 100%;
-		background-image: url(./image/banner_m.png);
+		background-image: url(../image/banner_m.png);
 		background-repeat: repeat-x;
 		overflow: hidden;
 	}
@@ -274,7 +274,7 @@ label {
 		margin: 0 !important;
 		padding: 0 !important;
 		width: 100%;
-		background-image: url(./image/bg_1-3.png);
+		background-image: url(../image/bg_1-3.png);
 		background-repeat: repeat-x;
 		overflow: hidden;
 		background-position: center; 
@@ -292,7 +292,7 @@ label {
 		width: 100%; /*450px*/
 		margin-left: auto;
 		margin-right: auto;
-		background-image: url(./image/bg_cor.png);
+		background-image: url(../image/bg_cor.png);
 		background-position: bottom right;
 		background-repeat: no-repeat;
 		overflow: hidden;
@@ -366,7 +366,7 @@ label {
 }
 
 /*=============================================
-=				 	        Font				       =
+=				 	   Font			       	  =
 =============================================*/
 
 @media (min-width:768px) and (max-width: 1293px) {
@@ -377,7 +377,7 @@ label {
 		margin-top: 0; /*50px !important*/ 
 		padding: 0 !important;
 		width: 100%;
-		background-image: url(./image/banner_m.png);
+		background-image: url(../image/banner_m.png);
 		background-repeat: repeat-x;
 		overflow: hidden;
 	}
@@ -386,7 +386,7 @@ label {
 		margin: 0 !important;
 		padding: 0 !important;
 		width: 100%;
-		background-image: url(./image/bg_1-3.png);
+		background-image: url(../image/bg_1-3.png);
 		background-repeat: repeat-x;
 		overflow: hidden;
 	}
@@ -401,7 +401,7 @@ label {
 		width: 450px;
 		margin-left: auto;
 		margin-right: auto;
-		background-image: url(./image/bg_cor.png);
+		background-image: url(../image/bg_cor.png);
 		background-position: bottom right;
 		background-repeat: no-repeat;
 	}
@@ -464,7 +464,7 @@ label {
 }
 
 /*=============================================
-=				 	        Font				       =
+=				 	   Font			       	  =
 =============================================*/
 
 @media (min-width:1294px) and (max-width: 1800px) {
@@ -474,7 +474,7 @@ label {
 		margin: 0 !important;
 		padding: 0 !important;
 		width: 100%;
-		background-image: url(./image/bg_1-3.png);
+		background-image: url(../image/bg_1-3.png);
 		background-repeat: repeat-x;
 		overflow: hidden;
 	}
@@ -489,7 +489,7 @@ label {
 		width: 75%;
 		margin-left: auto;
 		margin-right: auto;
-		background-image: url(./image/bg_cor.png);
+		background-image: url(../image/bg_cor.png);
 		background-position: bottom right;
 		background-repeat: no-repeat;
 	}
